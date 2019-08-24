@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpage"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="paket.example.ProjectUas.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:paddingBottom="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/front" />
+
+
+    <Button
+        android:id="@+id/btn_jadwal_sholat"
+        android:layout_width="@dimen/padding_layout_side"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_rounded"
+        android:fontFamily="@font/nextartbold"
+        android:text="JADWAL SHOLAT"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/btn_produk_halal"
+        android:layout_width="@dimen/padding_layout_side"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_rounded"
+        android:fontFamily="@font/nextartbold"
+        android:text="PRODUK HALAL"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_doa_harian"
+        android:layout_width="@dimen/padding_layout_side"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:fontFamily="@font/nextartbold"
+        android:text="Dzikir Harian"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:textAlignment="gravity"
+        android:text="' Sholatlah kamu di belakang imam, Sebelum kamu di sholatkan di depan Imam ' "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:fontFamily="@font/aero"
+        android:gravity="center"
+        android:text="Universitas Pelita Bangsa"
+        android:textColor="@color/ungu"
+        android:textSize="25dp" />
+
+
+</LinearLayout>

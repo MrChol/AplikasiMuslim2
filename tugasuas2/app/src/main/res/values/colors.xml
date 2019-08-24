@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="searchQuery">#37CABC</color>
+    <color name="ungu">#171A5E</color>
+    <color name="colorGrey">#7f8c8d</color>
+    <color name="colorBlue">#2C3E50</color>
+    <color name="colorSecondaryBlue">#34495E</color>
+    <color name="colorSecondaryBlueNight">#086EE4</color>
+    <color name="white">#fff</color>
+    <color name="green_400">#FF0000</color>
+    <color name="hitam">#FF000000</color>
+</resources>
